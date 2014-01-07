@@ -1,0 +1,3 @@
+[submodule "DecoPapier/src/main/assets/www/framework"]
+	path = DecoPapier/src/main/assets/www/framework
+	url = https://github.com/nicomo/framework.git
