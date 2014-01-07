@@ -6,4 +6,28 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+    <string-array name="chapter_names">
+        <item>Décoration en papier</item>
+        <item>Introduction</item>
+        <item>Conseils techniques</item>
+        <item>Kusudama</item>
+        <item>Suspension Kirigami</item>
+        <item>Cadre photo</item>
+        <item>Pêle-mêle</item>
+        <item>Trio de photophores</item>
+        <item>Tangram géant</item>
+        <item>Lustre piñata</item>
+        <item>Chemin de table</item>
+        <item>Tatô « Bon appétit »</item>
+        <item>Cartons de table</item>
+        <item>Eléphant de papier</item>
+        <item>Tableaux design</item>
+        <item>Rangement mural</item>
+        <item>Range-documents</item>
+        <item>Déco geek</item>
+        <item>Lampions Washi</item>
+        <item>Moulin à vent</item>
+        <item>Et maintenant?</item>
+    </string-array>
+
 </resources>

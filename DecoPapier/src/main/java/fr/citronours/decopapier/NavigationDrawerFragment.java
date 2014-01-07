@@ -99,31 +99,9 @@ public class NavigationDrawerFragment extends Fragment {
         });
         mDrawerListView.setAdapter(new ArrayAdapter<String>(
                 getActionBar().getThemedContext(),
-                android.R.layout.simple_list_item_activated_1,
+                R.layout.drawer_list_item,
                 android.R.id.text1,
-                new String[]{
-                        "Décoration en papier",
-                        "Introduction",
-                        "Conseils techniques",
-                        "Kusudama",
-                        "Suspension Kirigami",
-                        "Cadre photo",
-                        "Pêle-mêle",
-                        "Trio de photophores",
-                        "Tangram géant",
-                        "Lustre piñata",
-                        "Chemin de table",
-                        "Tatô « Bon appétit »",
-                        "Cartons de table",
-                        "Eléphant de papier",
-                        "Tableaux design",
-                        "Rangement mural",
-                        "Range-documents",
-                        "Déco geek",
-                        "Lampions Washi",
-                        "Moulin à vent",
-                        "Et maintenant?",
-                }));
+                getResources().getStringArray(R.array.chapter_names)));
         mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
         return mDrawerListView;
     }

@@ -57,6 +57,9 @@ public class MainActivity extends Activity
     }
 
     public void onSectionAttached(int number) {
+
+        //String[] chapterNames = getResources().getStringArray(R.array.chapter_names);
+
         switch (number) {
             case 0:
                 mTitle = "Décoration en papier";
